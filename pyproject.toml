@@ -1,0 +1,29 @@
+[project]
+name = "SnapDoc"
+version = "0.5.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Arnold Bhadauria", email = "arnoldbhadauria8@gmail.com" }
+]
+dependencies = [
+    "flet>=0.82.2",
+    "Pillow>=10.0.0"
+]
+
+[dependency-groups]
+dev = [
+    "flet-cli>=0.82.2",
+    "flet-desktop>=0.82.2",
+    "flet-web>=0.82.2",
+]
+
+[tool.flet]
+org = "com.arintechnologies"
+product = "SnapDoc"
+company = "Arin Technologies"
+copyright = "Copyright (C) 2023-2026 by Arin Technologies"
+
+[tool.flet.app]
+path = "src"
