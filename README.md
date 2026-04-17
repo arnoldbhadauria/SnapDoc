@@ -77,4 +77,3 @@ Because the project is open source, the future of SnapDoc can evolve through com
 ## License
 
 This project is released as open source software and can be freely used, modified, and distributed according to the terms of its license.
->>>>>>> 3f2a4e2ce4d8aa49798fda4b05d905d90c2d40c8
